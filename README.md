@@ -8,16 +8,16 @@ This repository contains my final submission for the PS3 House Price Prediction 
 
 ## Contents
 
-- **HousePriceComparison_Advanced.ipynb**:  
+- **combined_v10.ipynb**:  
   The main notebook that implements a house price prediction model using three different frameworks:
   - **Keras/TensorFlow**
   - **PyTorch**
   - **JAX (Flax & Optax)**
   
 - **predictions.csv Files**:  
-  - `predictions_keras_KL.csv`
-  - `predictions_pytorch_KL.csv`
-  - `predictions_jax_KL.csv`
+  - `predictions_keras_KL_v10.csv`
+  - `predictions_pytorch_KL_v10.csv`
+  - `predictions_jax_KL_v10.csv`
 
 ## Methodology
 
@@ -45,11 +45,11 @@ This repository contains my final submission for the PS3 House Price Prediction 
 - Separate histograms of the actual vs. predicted SalePrice distributions are generated.
 - A combined histogram plot (with x-axis from 50,000 to 450,000 and y-axis from 0 to 2e-5) is produced for comparison.
 
-## Results
+## Results 
 
-- **Keras/TensorFlow RMSE**: (see output in notebook)
-- **PyTorch RMSE**: (see output in notebook)
-- **JAX RMSE**: (see output in notebook)
+- **Keras/TensorFlow RMSE**: 30266.267407468356
+- **PyTorch RMSE**: 41990.71135382205
+- **JAX RMSE**: 69754.51354571975
 
 The predictions are saved in the CSV files listed above and follow the required format:
 ```
