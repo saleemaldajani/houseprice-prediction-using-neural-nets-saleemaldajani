@@ -47,7 +47,7 @@ This repository contains my final submission for the PS3 House Price Prediction 
 
 ## Results 
 
-# Real Performance Summary
+### Model Performance Summary
 
 - **Keras/TensorFlow RMSE**: 30266.267407468356
 - **PyTorch RMSE**: 41990.71135382205
@@ -61,7 +61,7 @@ ID,SALEPRICE
 1463,175221
 ```
 
-# Real Performance Summary
+### Ground-Truth Performance Summary
 
 | Model                     | **MSE**                | **RMSE**            |
 |---------------------------|------------------------|----------------------|
@@ -70,6 +70,7 @@ ID,SALEPRICE
 | **JAX KL v10**            | \(4.58 \times 10^{39}\) | \(6.77 \times 10^{19}\) |
 
 The JAX model's error is astronomically high, indicating potential issues such as numerical instability, data misalignment, or incorrect scaling. PyTorch is somewhere in between, but Keras/TensorFlow worked great!
+
 
 ## How to Run
 
